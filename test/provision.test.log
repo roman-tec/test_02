@@ -1,0 +1,17 @@
+{
+  "profileName": "test",
+  "jobId": "d2362d4f-d72c-453a-8e48-aa98c9181c01",
+  "projectId": "87260.27743073543",
+  "time": "2022-10-19T20:55:02.087Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: rg_chbot_lab at westus",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : acf5c1b1-751e-4293-a827-aef27cfc012c",
+    "> Create App Registration Success! ID: acf5c1b1-751e-4293-a827-aef27cfc012c",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Provisioning completed successfully!"
+  ]
+}
