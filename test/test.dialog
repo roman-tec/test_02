@@ -47,6 +47,13 @@
                     "id": "aNpoir"
                   },
                   "activity": "${SendActivity_aNpoir()}"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "eULF3Z"
+                  },
+                  "activity": "${SendActivity_eULF3Z()}"
                 }
               ]
             }
