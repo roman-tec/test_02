@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\test\\test_01\\test\\test.csproj": {}
+    "C:\\test_02\\test\\test.csproj": {}
   },
   "projects": {
-    "C:\\test\\test_01\\test\\test.csproj": {
+    "C:\\test_02\\test\\test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\test\\test_01\\test\\test.csproj",
+        "projectUniqueName": "C:\\test_02\\test\\test.csproj",
         "projectName": "test",
-        "projectPath": "C:\\test\\test_01\\test\\test.csproj",
+        "projectPath": "C:\\test_02\\test\\test.csproj",
         "packagesPath": "C:\\Users\\L03036185\\.nuget\\packages\\",
-        "outputPath": "C:\\test\\test_01\\test\\obj\\",
+        "outputPath": "C:\\test_02\\test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\test\\test_01\\test\\NuGet.Config",
+          "C:\\test_02\\test\\NuGet.Config",
           "C:\\Users\\L03036185\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CyLG52UZ15M1DFhy4g2pftMgiuQt90oz+D9CFXwdKZzHJdwOgVB32HfzQhKmNLBGsDqcOxa+yd1OU/vSxaVZTA==",
+  "dgSpecHash": "wOmZaER6IXnBNbpPGbAS7ntou3dBqaEYagwF+LMIl6p4PVkXHtJrVy+HsMvpRi6vA9PCgBxgjzBln84ZiS4+rw==",
   "success": true,
-  "projectFilePath": "C:\\test\\test_01\\test\\test.csproj",
+  "projectFilePath": "C:\\test_02\\test\\test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\L03036185\\.nuget\\packages\\adaptiveexpressions\\4.17.1\\adaptiveexpressions.4.17.1.nupkg.sha512",
     "C:\\Users\\L03036185\\.nuget\\packages\\antlr4.runtime.standard\\4.8.0\\antlr4.runtime.standard.4.8.0.nupkg.sha512",
