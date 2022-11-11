@@ -34,11 +34,11 @@ parameters:
   type: string
 
 #- name: luisEndpoint
-#  displayName: LUIS endpoint
-#  type: string
+ # displayName: LUIS endpoint
+ # type: string
 
 #- name: luisEndpointKey
-#  displayName: LUIS endpoint key
+# displayName: LUIS endpoint key
 #  type: string
 
 #- name: qnaSubscriptionKey
@@ -111,39 +111,39 @@ steps:
           "value": "${{ parameters.microsoftAppPassword }}",
           "slotSetting": false
         }
-        #,{
-        #  "name": "luis__endpoint",
-        #  "value": "${{ parameters.luisEndpoint }}",
-        #  "slotSetting": false
-        #},
-        #{
-        #  "name": "luis__endpointKey",
-        #  "value": "${{ parameters.luisEndpointKey }}",
-        #  "slotSetting": false
-        #},
-        #{
-        #  "name": "qna__hostname",
-        #  "value": "${{ parameters.qnaHostName }}",
-        #  "slotSetting": false
-        #},
-        #{
-        #  "name": "qna__knowledgebaseid",
-        #  "value": "${{ parameters.qnaKnowledgebaseId }}",
-        #  "slotSetting": false
-        #},
-        #{
-        #  "name": "qna__qnaRegion",
-        #  "value": "${{ parameters.qnaRegion }}",
-        #  "slotSetting": false
-        #},
-        #{
-        #  "name": "qna__endpointKey",
-        #  "value": "${{ parameters.qnaEndpointKey }}",
-        #  "slotSetting": false
-        #},
-        #{
-        #  "name": "qna__subscriptionKey",
-        #  "value": "${{ parameters.qnaSubscriptionKey }}",
-        #  "slotSetting": false
-        #}
+        ,{
+          "name": "luis__endpoint",
+          "value": "",
+          "slotSetting": false
+        },
+        {
+          "name": "luis__endpointKey",
+          "value": "",
+          "slotSetting": false
+        },
+        {
+          "name": "qna__hostname",
+          "value": "",
+          "slotSetting": false
+        },
+        {
+          "name": "qna__knowledgebaseid",
+          "value": "",
+          "slotSetting": false
+        },
+        {
+          "name": "qna__qnaRegion",
+          "value": "",
+          "slotSetting": false
+        },
+        {
+          "name": "qna__endpointKey",
+          "value": "",
+          "slotSetting": false
+        },
+        {
+          "name": "qna__subscriptionKey",
+          "value": "",
+          "slotSetting": false
+        }
       ]
