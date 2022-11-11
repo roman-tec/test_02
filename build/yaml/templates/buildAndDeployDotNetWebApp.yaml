@@ -33,33 +33,33 @@ parameters:
   displayName: Bot's Microsoft app Password
   type: string
 
-- name: luisEndpoint
-  displayName: LUIS endpoint
-  type: string
+#- name: luisEndpoint
+#  displayName: LUIS endpoint
+#  type: string
 
-- name: luisEndpointKey
-  displayName: LUIS endpoint key
-  type: string
+#- name: luisEndpointKey
+#  displayName: LUIS endpoint key
+#  type: string
 
-- name: qnaSubscriptionKey
-  displayName: QnA Maker subscription key
-  type: string
+#- name: qnaSubscriptionKey
+#  displayName: QnA Maker subscription key
+#  type: string
 
-- name: qnaEndpointKey
-  displayName: QnA Maker endpoint key
-  type: string
+#- name: qnaEndpointKey
+#  displayName: QnA Maker endpoint key
+#  type: string
 
-- name: qnaHostName
-  displayName: QnA Maker host name
-  type: string
+#- name: qnaHostName
+#  displayName: QnA Maker host name
+#  type: string
 
-- name: qnaKnowledgebaseId
-  displayName: QnA Maker knowledgebase ID
-  type: string
+#- name: qnaKnowledgebaseId
+#  displayName: QnA Maker knowledgebase ID
+#  type: string
 
-- name: qnaRegion
-  displayName: QnA Maker region
-  type: string
+#- name: qnaRegion
+#  displayName: QnA Maker region
+#  type: string
 
 steps:
 # Build bot
@@ -110,40 +110,40 @@ steps:
           "name": "MicrosoftAppPassword",
           "value": "${{ parameters.microsoftAppPassword }}",
           "slotSetting": false
-        },
-        {
-          "name": "luis__endpoint",
-          "value": "${{ parameters.luisEndpoint }}",
-          "slotSetting": false
-        },
-        {
-          "name": "luis__endpointKey",
-          "value": "${{ parameters.luisEndpointKey }}",
-          "slotSetting": false
-        },
-        {
-          "name": "qna__hostname",
-          "value": "${{ parameters.qnaHostName }}",
-          "slotSetting": false
-        },
-        {
-          "name": "qna__knowledgebaseid",
-          "value": "${{ parameters.qnaKnowledgebaseId }}",
-          "slotSetting": false
-        },
-        {
-          "name": "qna__qnaRegion",
-          "value": "${{ parameters.qnaRegion }}",
-          "slotSetting": false
-        },
-        {
-          "name": "qna__endpointKey",
-          "value": "${{ parameters.qnaEndpointKey }}",
-          "slotSetting": false
-        },
-        {
-          "name": "qna__subscriptionKey",
-          "value": "${{ parameters.qnaSubscriptionKey }}",
-          "slotSetting": false
         }
+        #,{
+        #  "name": "luis__endpoint",
+        #  "value": "${{ parameters.luisEndpoint }}",
+        #  "slotSetting": false
+        #},
+        #{
+        #  "name": "luis__endpointKey",
+        #  "value": "${{ parameters.luisEndpointKey }}",
+        #  "slotSetting": false
+        #},
+        #{
+        #  "name": "qna__hostname",
+        #  "value": "${{ parameters.qnaHostName }}",
+        #  "slotSetting": false
+        #},
+        #{
+        #  "name": "qna__knowledgebaseid",
+        #  "value": "${{ parameters.qnaKnowledgebaseId }}",
+        #  "slotSetting": false
+        #},
+        #{
+        #  "name": "qna__qnaRegion",
+        #  "value": "${{ parameters.qnaRegion }}",
+        #  "slotSetting": false
+        #},
+        #{
+        #  "name": "qna__endpointKey",
+        #  "value": "${{ parameters.qnaEndpointKey }}",
+        #  "slotSetting": false
+        #},
+        #{
+        #  "name": "qna__subscriptionKey",
+        #  "value": "${{ parameters.qnaSubscriptionKey }}",
+        #  "slotSetting": false
+        #}
       ]
