@@ -63,52 +63,52 @@ parameters:
   
 # LUIS Parameters
 # LUIS Authoring (used to build, train and publish LUIS models)
-- name: luisAuthoringKey
-  displayName: LUIS authoring key
-  type: string
-  default: $(LUISAUTHORINGKEY)
+#- name: luisAuthoringKey
+#  displayName: LUIS authoring key
+#  type: string
+#  default: $(LUISAUTHORINGKEY)
 
-- name: luisAuthoringRegion
-  displayName: LUIS authoring region
-  type: string
-  default: $(LUISAUTHORINGREGION)
+#- name: luisAuthoringRegion
+#  displayName: LUIS authoring region
+#  type: string
+#  default: $(LUISAUTHORINGREGION)
   
 # LUIS Runtime (used to access LUIS while the bot is running)
-- name: luisEndpoint
-  displayName: LUIS endpoint
-  type: string
-  default: $(LUISENDPOINT)
+#- name: luisEndpoint
+#  displayName: LUIS endpoint
+#  type: string
+#  default: $(LUISENDPOINT)
 
-- name: luisEndpointKey
-  displayName: LUIS endpoint key
-  type: string
-  default: $(LUISENDPOINTKEY)
+#- name: luisEndpointKey
+#  displayName: LUIS endpoint key
+#  type: string
+#  default: $(LUISENDPOINTKEY)
 
 # QnAMaker parameters
-- name: qnaSubscriptionKey
-  displayName: QnA Maker subscription key
-  type: string
-  default: $(QNASUBSCRIPTIONKEY)
+#- name: qnaSubscriptionKey
+#  displayName: QnA Maker subscription key
+#  type: string
+#  default: $(QNASUBSCRIPTIONKEY)
 
-- name: qnaEndpointKey
-  displayName: QnA Maker endpoint key
-  type: string
-  default: $(QNAENDPOINTKEY)
+#- name: qnaEndpointKey
+#  displayName: QnA Maker endpoint key
+#  type: string
+#  default: $(QNAENDPOINTKEY)
 
-- name: qnaHostName
-  displayName: QnA Maker host name
-  type: string
-  default: $(QNAHOSTNAME)
+#- name: qnaHostName
+#  displayName: QnA Maker host name
+#  type: string
+#  default: $(QNAHOSTNAME)
 
-- name: qnaKnowledgebaseId
-  displayName: QnA Maker knowledgebase ID
-  type: string
-  default: $(QNAKNOWLEDGEBASEID)
+#- name: qnaKnowledgebaseId
+#  displayName: QnA Maker knowledgebase ID
+#  type: string
+#  default: $(QNAKNOWLEDGEBASEID)
 
-- name: qnaRegion
-  displayName: QnA Maker region
-  type: string
-  default: $(QNAREGION)
+#- name: qnaRegion
+#  displayName: QnA Maker region
+#  type: string
+#  default: $(QNAREGION)
 
 steps:
 
@@ -116,14 +116,14 @@ steps:
 - template: templates/installPrerequisites.yaml
 
 # Build and deploy LUIS and QnAMaker models
-- template: templates/buildAndDeployModels.yaml
-  parameters:
-    sourceDirectory: "$(System.DefaultWorkingDirectory)/${{ parameters.botProjectDirectory }}"
-    yamlDirectory: "$(System.DefaultWorkingDirectory)/${{ parameters.buildYamlDirectory }}"
-    botName: "${{ parameters.botName }}"
-    luisAuthoringKey: "${{ parameters.luisAuthoringKey }}"
-    luisAuthoringRegion: "${{ parameters.luisAuthoringRegion }}"
-    qnaSubscriptionKey: "${{ parameters.qnaSubscriptionKey }}"
+#- template: templates/buildAndDeployModels.yaml
+#  parameters:
+#    sourceDirectory: "$(System.DefaultWorkingDirectory)/${{ parameters.botProjectDirectory }}"
+#    yamlDirectory: "$(System.DefaultWorkingDirectory)/${{ parameters.buildYamlDirectory }}"
+#    botName: "${{ parameters.botName }}"
+#    luisAuthoringKey: "${{ parameters.luisAuthoringKey }}"
+#    luisAuthoringRegion: "${{ parameters.luisAuthoringRegion }}"
+#    qnaSubscriptionKey: "${{ parameters.qnaSubscriptionKey }}"
 
 # Deploy and configure web app
 - template: templates/buildAndDeployDotNetWebApp.yaml
