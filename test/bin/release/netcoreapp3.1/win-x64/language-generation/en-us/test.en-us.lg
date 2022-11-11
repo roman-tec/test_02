@@ -12,11 +12,6 @@
 
 # SendActivity_DidNotUnderstand_text()
 - Sorry, I didn't get that.
-# SendActivity_aNpoir()
-[Activity
-    Text = o no?
-]
-
 # SendActivity_eULF3Z()
 [Activity
     Text = o si?

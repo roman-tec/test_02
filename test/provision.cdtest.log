@@ -1,0 +1,17 @@
+{
+  "profileName": "cdtest",
+  "jobId": "a0085c6d-e397-48c6-9370-63a70b35c1f6",
+  "projectId": "4734.366365196285",
+  "time": "2022-10-24T21:24:35.743Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Creating Resource Group ...",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 4577d145-11ef-4925-8d23-71319379527c",
+    "> Create App Registration Success! ID: 4577d145-11ef-4925-8d23-71319379527c",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Provisioning completed successfully!"
+  ]
+}
