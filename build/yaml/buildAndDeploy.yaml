@@ -135,13 +135,13 @@ steps:
     botName: "${{ parameters.botName }}"
     microsoftAppId: "${{ parameters.microsoftAppId }}"
     microsoftAppPassword: "${{ parameters.microsoftAppPassword }}"
-    luisEndpoint: "${{ parameters.luisEndpoint }}"
-    luisEndpointKey: "${{ parameters.luisEndpointKey }}"
-    qnaSubscriptionKey: "${{ parameters.qnaSubscriptionKey }}"
-    qnaEndpointKey: "${{ parameters.qnaEndpointKey }}"
-    qnaHostName: "${{ parameters.qnaHostName }}"
-    qnaKnowledgebaseId: "${{ parameters.qnaKnowledgebaseId }}"
-    qnaRegion: "${{ parameters.qnaRegion }}"
+#    luisEndpoint: "${{ parameters.luisEndpoint }}"
+#    luisEndpointKey: "${{ parameters.luisEndpointKey }}"
+#    qnaSubscriptionKey: "${{ parameters.qnaSubscriptionKey }}"
+#    qnaEndpointKey: "${{ parameters.qnaEndpointKey }}"
+#    qnaHostName: "${{ parameters.qnaHostName }}"
+#    qnaKnowledgebaseId: "${{ parameters.qnaKnowledgebaseId }}"
+#    qnaRegion: "${{ parameters.qnaRegion }}"
 
 # Helper to output the working folder directory contents for diagnostics
 - task: PowerShell@2
